@@ -152,7 +152,7 @@ programa
 					}
 		
 					escreva("Foram adicionados "+usoExtra+" creditos e sobraram "+notaExtra)
-					escreva("\nNota total: " ,pontosTotais,"\n")
+					escreva("\nNota total: " ,pontosTotais," batata\n")
 				}
 
 			pare
@@ -170,7 +170,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 3516; 
+ * @POSICAO-CURSOR = 3647; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
