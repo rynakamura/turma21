@@ -21,7 +21,7 @@ public class Ex2PS {
 	
 	anos=diasTotais/365;
 	meses = (diasTotais%365)/30;
-	dias = (diasTotais%365)/30;
+	dias = (diasTotais%365)%30;
 	
 	System.out.println("Olha só "+nome+" você tem "+anos+" anos "+meses+" meses e "+dias+" dias!");
 	}
