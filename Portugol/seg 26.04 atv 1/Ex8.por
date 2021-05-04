@@ -10,7 +10,7 @@ programa
 
 		escreva("Qual o valor de fabrica do carro?")
 		leia(fabrica)
-		valor = (fabrica*(1+distribuidor))*(1+impostos)
+		valor = (fabrica*(1+distribuidor+impostos))
 		escreva("O valor final do carro é "+ valor)
 	}
 }
@@ -19,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 0; 
+ * @POSICAO-CURSOR = 218; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
