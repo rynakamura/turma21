@@ -3,7 +3,7 @@
  * fábrica expressa em segundos e mostre-o expresso em horas, minutos e segundos. 
  */
 
-package exercicio;
+package Lista1;
 
 import java.util.Scanner;
 

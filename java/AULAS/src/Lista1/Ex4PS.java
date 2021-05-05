@@ -4,7 +4,7 @@
  *   e calcule a seguinte expressão: 
  */
 
-package exercicio;
+package Lista1;
 
 import java.util.Scanner;
 

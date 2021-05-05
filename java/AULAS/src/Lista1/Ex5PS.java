@@ -3,7 +3,7 @@
  *  Considerar que a média é ponderada e que o peso das notas é: 2,3 e 5, respectivamente
  */
 
-package exercicio;
+package Lista1;
 
 import java.util.Scanner;
 

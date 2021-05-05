@@ -4,7 +4,7 @@
  *  mostre-a expressa em anos, meses e dias. 
  */
 
-package exercicio;
+package Lista1;
 
 import java.util.Scanner;
 

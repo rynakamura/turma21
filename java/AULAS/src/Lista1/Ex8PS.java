@@ -6,7 +6,7 @@
  *     custo ao consumidor. 
  */
 
-package exercicio;
+package Lista1;
 
 import java.util.Scanner;
 

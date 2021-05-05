@@ -4,7 +4,7 @@
  *  A fórmula da distancia entre 2 pontos. 
  */
 
-package exercicio;
+package Lista1;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
