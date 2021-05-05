@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class Ex6PS {
 	public static void main(String args[]) {
 		double x1,x2,y1,y2,d;
-		Scanner leia = new Scanner(System.in);
+		Scanner leia = new Scanner(System.in);//instanciada
 		DecimalFormat df = new DecimalFormat("#.##");
 		
 		System.out.println("Sabendo as coordenadas (x1,y1), qual o valor de x1");
@@ -24,7 +24,7 @@ public class Ex6PS {
 		System.out.println("Sabendo as coordenadas (x2,y2), qual o valor de y2");	
 		y2=leia.nextDouble();
 		
-		d=Math.sqrt((Math.pow(x2-x1, 2.0))+Math.pow(y2-y1, 2.0));
+		d=Math.sqrt((Math.pow(x2-x1, 2.0))+Math.pow(y2-y1, 2.0));//interface
 		System.out.println(df.format(d));
 	}
 }
