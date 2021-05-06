@@ -10,7 +10,6 @@ import java.util.Scanner;
 public class Ex2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Locale.setDefault(Locale.US);
 		Scanner leia = new Scanner(System.in);
 		
@@ -21,6 +20,7 @@ public class Ex2 {
 			num[x]=leia.nextInt();
 			
 		}
+		
 		Arrays.sort(num);
 		System.out.println("Os numeros em ordem crescente são : ");
 		for(int x = 0;x<3;x++) {
@@ -28,7 +28,7 @@ public class Ex2 {
 
 			
 		}
-		
+		leia.close();
 	}
 
 }
