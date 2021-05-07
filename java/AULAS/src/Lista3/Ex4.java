@@ -6,14 +6,15 @@ import java.util.Scanner;
 public class Ex4 {
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
-		Scanner leia = new Scanner(System.in);
+		Scanner leia = new Scanner(System.in); //construtor
 		
 		int idade=0,pessoasCalmas=0,mulheresNervosas=0,homensAgressivos=0,outrosCalmos=0,
 				mais40Nervosos=0,menor18Calmas=0,sexo=0,opcoes=0,x=0;
-		
+		//tudo que não envolve calculo é legal usar char
 		System.out.println("Bem vindo a pesquisa!");
 		
 		while(x<2) {
+			System.out.printf("Pessoa nº %d\n",x+1);
 			System.out.print("Digite a sua idade : ");
 			idade = leia.nextInt();
 			System.out.print("Digite a opção de sexo que você se identifica : (1-F/2-M/3-O) ");
@@ -43,6 +44,7 @@ public class Ex4 {
 					menor18Calmas++;
 				}
 				x++;
+				
 			}
 			
 			
