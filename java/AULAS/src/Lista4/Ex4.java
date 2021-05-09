@@ -110,6 +110,6 @@ public class Ex4 {
 			continuar = leia.next().toUpperCase().charAt(0);
 
 		} while (continuar == 'S');
-
+		leia.close();
 	}
 }
