@@ -1,7 +1,8 @@
 package Lista5;
 
 public class Banco {
-	private int saldo,nContas=5;
+	private String conta;
+	private int saldo,nContas=5,containi;
 	private String contasAbertas[] = {"","","","",""};
 	private String senhasAbertas[] =new String[nContas];
 	private boolean aprovado=true;
@@ -40,6 +41,10 @@ public class Banco {
 			}
 		}return aprovado =true;
 	}
-
+	public String gerarConta() {
+		 containi =(int)(Math.random()*10000);
+		 int digito =(int)(Math.random()*10);
+		 return conta =containi+"-"+digito;
+	}
 	
 }

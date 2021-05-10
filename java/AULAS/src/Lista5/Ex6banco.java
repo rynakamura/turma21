@@ -19,7 +19,8 @@ public class Ex6banco {
 		
 		while(criarConta =='S') {
 			System.out.print("Digite o numero de conta XXXX-X : ");
-			conta = leia.next();
+			conta ="01"; // leia.next();
+			System.out.println(BBV.gerarConta());
 			System.out.print("Digite sua nova senha : ");
 			senha=leia.next();
 			BBV.criarConta(conta, senha);
