@@ -27,6 +27,6 @@ public class ContatosAmigos {
 		System.out.println(pe1.anoNascimento);
 		System.out.println(pe1.genero);
 		System.out.println(pe1.vivo);
-		System.out.printf("A idade aproximada é %d",pe1.idadeAproximada());
+		pe1.idadeAproximada();
 	}
 }
