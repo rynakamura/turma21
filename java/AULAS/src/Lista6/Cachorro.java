@@ -2,7 +2,7 @@ package Lista6;
 
 public class Cachorro extends Animal {
 	private boolean correr;
-	private String som="Au Au";
+	
 
 	public Cachorro(String nome, int idade, boolean correr) {
 		super(nome, idade);
@@ -19,9 +19,10 @@ public class Cachorro extends Animal {
 		this.correr = correr;
 	}
 
-	
+	@Override
 	public String emitirSom() {
-		return som;
+		super.setSom("Au Au");
+		return super.getSom();
 	}
 	
     public void printDog() {

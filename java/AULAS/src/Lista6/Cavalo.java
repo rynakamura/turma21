@@ -2,7 +2,6 @@ package Lista6;
 
 public class Cavalo extends Animal {
 	private boolean correr;
-	private String som="hiin in in hinir";
 
 	public Cavalo(String nome, int idade, boolean correr) {
 		super(nome, idade);
@@ -19,9 +18,10 @@ public class Cavalo extends Animal {
 		this.correr = correr;
 	}
 
-	
+	@Override
 	public String emitirSom() {
-		return som;
+		super.setSom("hiin in in hinir");
+		return super.getSom();
 	}
     public void printHorse() {
         System.out.println("");
