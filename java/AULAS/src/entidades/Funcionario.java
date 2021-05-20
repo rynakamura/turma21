@@ -10,6 +10,7 @@ public class Funcionario {
 		this.nome = nome;
 		this.matricula = matricula;
 	}
+	
 	public Funcionario(String nome, String matricula, int horasTrabalhadas, double valorHora) {
 		super();
 		this.nome = nome;
@@ -45,6 +46,6 @@ public class Funcionario {
 	
 	
 	public void mostrarSalario() {
-		System.out.printf("O salario final é %.2f",(horasTrabalhadas*valorHora));
+		System.out.printf("O salario final é %.2f reais \n",(horasTrabalhadas*valorHora));
 	}
 }
