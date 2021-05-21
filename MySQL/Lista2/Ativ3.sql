@@ -12,7 +12,7 @@ create table tb_produto(
 id bigint auto_increment,
 generico boolean,
 nome varchar(50) not null,
-descricao varchar(550) not null,
+descricao varchar(255) not null,
 valor decimal (10,2) not null,
 frete decimal (10,2) not null,
 categoria_id bigint not null,
@@ -42,9 +42,9 @@ insert tb_produto (generico, nome,descricao,valor,frete,categoria_id)
 insert tb_produto (generico, nome,descricao,valor,frete,categoria_id) 
 	values (true, "sérum","anti idade",  38.99,0.99, 2 );
     
-select * from tb_produto where valor <50.00;
+select * from tb_produto where valor >50.00;
 select * from tb_produto where valor >3.00 and valor <60.00;
-select * from tb_produto where nome like "%c%";
+select * from tb_produto where nome like "%B%";
 select categoria,promocao,desconto_convenio,generico, nome,descricao,valor,frete
 	from tb_produto inner join tb_categoria on tb_produto.categoria_id = tb_categoria.id;
 select categoria,promocao,desconto_convenio,generico, nome,descricao,valor,frete

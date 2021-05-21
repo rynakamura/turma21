@@ -42,7 +42,7 @@ insert tb_pizza (dois_sabores, recheio,recheio2,borda,valor,categoria_id)
 insert tb_pizza (dois_sabores, recheio,recheio2,borda,valor,categoria_id) 
 	values (true, "calabresa","brocolis", "fina", 38.99, 3 );
     
-select * from tb_pizza where valor <45.00;
+select * from tb_pizza where valor >45.00;
 select * from tb_pizza where valor >29.00 and valor <60.00;
 select * from tb_pizza where recheio like "%c%" or recheio2 like "%c%";
 select dois_sabores,recheio,recheio2,borda,valor, tamanho, promocao, frete 
